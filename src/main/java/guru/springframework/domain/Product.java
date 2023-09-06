@@ -7,10 +7,10 @@ import java.math.BigDecimal;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Long id;
 
     @Version
-    private Integer version;
+    private Long version;
 
     private String productId;
     private String description;
